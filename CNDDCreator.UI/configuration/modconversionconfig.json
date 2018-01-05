@@ -1,0 +1,6 @@
+{
+  "logFile" : "logs\\updatelog.log",
+  "enableConsoleDebug" : true,
+  "enableTreeView" : true,
+  "enableVerboseLogging" : true
+}

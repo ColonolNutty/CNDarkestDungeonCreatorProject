@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CNDDModConversionModule.Tests:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CNDDModConversionModule_Tests_jar</output-path>
+    <root id="archive" name="CNDDModConversionModule.Tests.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-test-output" name="CNDDModConversionModule.Tests" />
+      <element id="module-output" name="CNDDModConversionModule" />
+      <element id="module-output" name="CNDDCreator.Shared" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/btf-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/guava-23.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-annotations-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-core-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-coreutils-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-databind-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/json-20170516.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/json-patch-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/msg-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/btf-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/guava-23.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/jackson-annotations-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/jackson-core-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/jackson-coreutils-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/jackson-databind-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/json-20170516.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/json-patch-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule/lib/msg-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/CNModuleDependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/btf-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/byte-buddy-1.6.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/byte-buddy-agent-1.6.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/guava-23.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/jackson-annotations-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/jackson-core-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/jackson-coreutils-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/jackson-databind-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/json-20170516.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/json-patch-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/junit-4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/mockito-core-2.12.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/msg-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDModConversionModule.Tests/lib/objenesis-2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

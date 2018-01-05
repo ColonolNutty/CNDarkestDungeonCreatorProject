@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CNModuleDependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/CNModuleDependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

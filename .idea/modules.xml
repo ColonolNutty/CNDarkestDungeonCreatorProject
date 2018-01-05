@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" filepath="$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" filepath="$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CNDDModConversionModule/CNDDModConversionModule.iml" filepath="$PROJECT_DIR$/CNDDModConversionModule/CNDDModConversionModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/CNDDModConversionModule.Tests.iml" filepath="$PROJECT_DIR$/CNDDModConversionModule.Tests/CNDDModConversionModule.Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CNDarkestDungeonCreatorProject.iml" filepath="$PROJECT_DIR$/CNDarkestDungeonCreatorProject.iml" />
+    </modules>
+  </component>
+</project>
