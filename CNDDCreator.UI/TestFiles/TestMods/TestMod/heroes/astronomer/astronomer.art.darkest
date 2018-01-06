@@ -1,0 +1,23 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "hellion_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "hellion_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "hellion_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "hellion_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "hellion_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "hellion_armour_0" .icon "eqp_armour_0.png"
+armour: .name "hellion_armour_1" .icon "eqp_armour_1.png"
+armour: .name "hellion_armour_2" .icon "eqp_armour_2.png"
+armour: .name "hellion_armour_3" .icon "eqp_armour_3.png"
+armour: .name "hellion_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "staff_bash" .icon "one" .anim "attack_charge" .fx "wicked_hack" .targchestfx "blood_splatter"
+combat_skill: .id "solar_flare" .icon "two" .anim "attack_buff" .fx "dazzling_light" .targchestfx "dazzling_light_target"
+combat_skill: .id "black_hole" .icon "three" .anim "attack_buff" .fx "adrenaline_rush" .targchestfx "weakening_curse_target"
+combat_skill: .id "earth_is_round" .icon "four" .anim "attack_buff" .fx "adrenaline_rush" .targchestfx "disruptive_curse_target"
+combat_skill: .id "galaxy_swirl" .icon "five" .anim "attack_buff" .fx "adrenaline_rush" .targchestfx "disruptive_curse_target" .area_pos_offset 50 0 .target_area_pos_offset -50 0
+combat_skill: .id "wormhole_hook" .icon "six" .anim "attack_charge" .fx "wicked_hack" .targchestfx "blood_splatter"
+combat_skill: .id "rings_of_saturn" .icon "seven" .anim "attack_buff" .fx "adrenaline_rush" .targchestfx "dazzling_light_target"
+				
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"

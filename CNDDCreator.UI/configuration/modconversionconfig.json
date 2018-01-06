@@ -2,5 +2,6 @@
   "logFile" : "logs\\updatelog.log",
   "enableConsoleDebug" : true,
   "enableTreeView" : true,
-  "enableVerboseLogging" : true
+  "enableVerboseLogging" : true,
+  "modsFolder" : "TestFiles\\TestMods"
 }

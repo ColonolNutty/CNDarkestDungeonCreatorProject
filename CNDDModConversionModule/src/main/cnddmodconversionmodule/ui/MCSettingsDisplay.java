@@ -34,6 +34,10 @@ public class MCSettingsDisplay extends SettingsDisplayBase {
                 "Relative Log File Path: ",
                 "logFile",
                 _settings.logFile);
+        JPanel modsFolder = createField(FieldType.TextField,
+                "Relative Mods Folder for conversion: ",
+                "modsFolder",
+                _settings.modsFolder);
 
         //CheckBox
         JPanel enableTreeView = createField(FieldType.CheckBox,
@@ -70,6 +74,7 @@ public class MCSettingsDisplay extends SettingsDisplayBase {
                                                         .addGroup(
                                                                 layout.createParallelGroup()
                                                                         .addComponent(logFile)
+                                                                        .addComponent(modsFolder)
                                                         )
                                         )
                                         //Middle - Middle
@@ -102,6 +107,7 @@ public class MCSettingsDisplay extends SettingsDisplayBase {
                                                 .addGroup(
                                                         layout.createSequentialGroup()
                                                                 .addComponent(logFile)
+                                                                .addComponent(modsFolder)
                                                 )
                                 )
                                 //Middle - Middle
@@ -131,6 +137,17 @@ public class MCSettingsDisplay extends SettingsDisplayBase {
             public void focusLost(FocusEvent e) {
                 JTextComponent text = (JTextComponent)e.getSource();
                 _settings.logFile = text.getText();
+                writeSettings();
+            }
+        });
+        setupTextEntryFocusListener("modsFolder", new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) { }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                JTextComponent text = (JTextComponent)e.getSource();
+                _settings.modsFolder = text.getText();
                 writeSettings();
             }
         });

@@ -26,6 +26,6 @@ public class MCMain extends MainFunctionModule {
 
     @Override
     public void run() {
-        _log.debug("I ran");
+        _log.debug(_settings.modsFolder);
     }
 }

@@ -1,0 +1,59 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 40% .move 30% .debuff 60% .death_blow 67% .trap 10%
+weapon: .name "hellion_weapon_0" .atk 0% .dmg 4 7 .crit 2.5% .spd 5
+weapon: .name "hellion_weapon_1" .atk 0% .dmg 5 8 .crit 3% .spd 6 .upgradeRequirementCode 0
+weapon: .name "hellion_weapon_2" .atk 0% .dmg 6 9 .crit 3.5% .spd 7 .upgradeRequirementCode 1
+weapon: .name "hellion_weapon_3" .atk 0% .dmg 8 11 .crit 4% .spd 8 .upgradeRequirementCode 2
+weapon: .name "hellion_weapon_4" .atk 0% .dmg 9 12 .crit 4.5% .spd 8 .upgradeRequirementCode 3
+armour: .name "hellion_armour_0" .def 10% .prot 0 .hp 22 .spd 0
+armour: .name "hellion_armour_1" .def 15% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "hellion_armour_2" .def 20% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
+armour: .name "hellion_armour_3" .def 25% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "hellion_armour_4" .def 30% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "staff_bash" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True  .generation_guaranteed true
+combat_skill: .id "staff_bash" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True 
+combat_skill: .id "staff_bash" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True 
+combat_skill: .id "staff_bash" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True 
+combat_skill: .id "staff_bash" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True 
+combat_skill: .id "solar_flare" .level 0 .heal 4 5 .launch 43 .target @4321  .generation_guaranteed true
+combat_skill: .id "solar_flare" .level 1 .heal 5 6 .launch 43 .target @4321 
+combat_skill: .id "solar_flare" .level 2 .heal 6 7 .launch 43 .target @4321 
+combat_skill: .id "solar_flare" .level 3 .heal 7 8 .launch 43 .target @4321 
+combat_skill: .id "solar_flare" .level 4 .heal 8 9 .launch 43 .target @4321 
+combat_skill: .id "black_hole" .level 0 .type "ranged" .atk 80% .dmg 0% .crit 5% .launch 43 .target 34 .is_crit_valid True  .effect "Strong Stun 1" "Hellion Exhaust"
+combat_skill: .id "black_hole" .level 1 .type "ranged" .atk 85% .dmg 0% .crit 6% .launch 43 .target 34 .is_crit_valid True  .effect "Strong Stun 1" "Hellion Exhaust"
+combat_skill: .id "black_hole" .level 2 .type "ranged" .atk 90% .dmg 0% .crit 6% .launch 43 .target 34 .is_crit_valid True  .effect "Strong Stun 1" "Hellion Exhaust"
+combat_skill: .id "black_hole" .level 3 .type "ranged" .atk 95% .dmg 0% .crit 6% .launch 43 .target 34 .is_crit_valid True  .effect "Strong Stun 1" "Hellion Exhaust"
+combat_skill: .id "black_hole" .level 4 .type "ranged" .atk 100% .dmg 0% .crit 7% .launch 43 .target 34 .is_crit_valid True  .effect "Strong Stun 1" "Hellion Exhaust"
+combat_skill: .id "earth_is_round" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 432 .target ~1234 .is_crit_valid False  .effect "Disorient 1"
+combat_skill: .id "earth_is_round" .level 1 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 432 .target ~1234 .is_crit_valid False  .effect "Disorient 2"
+combat_skill: .id "earth_is_round" .level 2 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 432 .target ~1234 .is_crit_valid False  .effect "Disorient 3"
+combat_skill: .id "earth_is_round" .level 3 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 432 .target ~1234 .is_crit_valid False  .effect "Disorient 4"
+combat_skill: .id "earth_is_round" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 432 .target ~1234 .is_crit_valid False  .effect "Disorient 5"
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+combat_skill: .id "galaxy_swirl" .level 0 .type "ranged" .atk 70% .dmg -100% .crit 0% .move 0 1 .launch 4 .target ~1234 .is_crit_valid True  .effect "PD Blight 1" "Bleed 1" "Occ Weakening Curse 1" "Hellion Exhaust" .generation_guaranteed true
+combat_skill: .id "galaxy_swirl" .level 1 .type "ranged" .atk 75% .dmg -100% .crit 0% .move 0 1 .launch 4 .target ~1234 .is_crit_valid True  .effect "PD Blight 2" "Bleed 2" "Occ Weakening Curse 1" "Hellion Exhaust"
+combat_skill: .id "galaxy_swirl" .level 2 .type "ranged" .atk 80% .dmg -100% .crit 1% .move 0 1 .launch 4 .target ~1234 .is_crit_valid True  .effect "PD Blight 3" "Bleed 3" "Occ Weakening Curse 1" "Hellion Exhaust"
+combat_skill: .id "galaxy_swirl" .level 3 .type "ranged" .atk 85% .dmg -100% .crit 2% .move 0 1 .launch 4 .target ~1234 .is_crit_valid True  .effect "PD Blight 4" "Bleed 4" "Occ Weakening Curse 1" "Hellion Exhaust"
+combat_skill: .id "galaxy_swirl" .level 4 .type "ranged" .atk 90% .dmg -100% .crit 2% .move 0 1 .launch 4 .target ~1234 .is_crit_valid True  .effect "PD Blight 5" "Bleed 5" "Occ Weakening Curse 1" "Hellion Exhaust"
+combat_skill: .id "wormhole_hook" .level 0 .type "melee" .atk 90% .dmg -40% .crit 0% .launch 4321 .target 34 .is_crit_valid True  .effect "Pull 2A"
+combat_skill: .id "wormhole_hook" .level 1 .type "melee" .atk 95% .dmg -40% .crit 0% .launch 4321 .target 34 .is_crit_valid True  .effect "Pull 2B"
+combat_skill: .id "wormhole_hook" .level 2 .type "melee" .atk 100% .dmg -40% .crit 1% .launch 4321 .target 34 .is_crit_valid True  .effect "Pull 2C"
+combat_skill: .id "wormhole_hook" .level 3 .type "melee" .atk 105% .dmg -40% .crit 2% .launch 4321 .target 34 .is_crit_valid True  .effect "Pull 2D"
+combat_skill: .id "wormhole_hook" .level 4 .type "melee" .atk 110% .dmg -40% .crit 2% .launch 4321 .target 34 .is_crit_valid True  .effect "Pull 2E"
+combat_skill: .id "rings_of_saturn" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target  .is_crit_valid True  .effect "LeperHealSelfStress 1" "Leper Protect 1"
+
+combat_skill: .id "rings_of_saturn" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target  .is_crit_valid True  .effect "LeperHealSelfStress 2" "Leper Protect 2"
+
+combat_skill: .id "rings_of_saturn" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target  .is_crit_valid True  .effect "LeperHealSelfStress 3" "Leper Protect 3"
+
+combat_skill: .id "rings_of_saturn" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target  .is_crit_valid True  .effect "LeperHealSelfStress 4" "Leper Protect 4"
+
+combat_skill: .id "rings_of_saturn" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target  .is_crit_valid True  .effect "LeperHealSelfStress 5" "Leper Protect 5"
+
+tag: .id "non-religious"
+tag: .id "light"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

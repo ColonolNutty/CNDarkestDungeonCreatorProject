@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<entry id="hero_class_name_astronomer"><![CDATA[Astronomer]]></entry>
+		<entry id="action_verbose_body_blacksmith_astronomer"><![CDATA[The Astronomer is highly intelligent - a scientist who studies the stars and heavenly bodies. He spends his time researching and seeking out fallen stars and pieces of moon rock. It is rumored many ancient relics possess the power of the stars - which brings him desperately in search to the Darkest of Dungeons.  
+]]></entry>
+
+		<entry id="action_verbose_body_guild_astronomer"><![CDATA[The Astronomer has manipulated the embedded magical properties found within moon rock to create powerful Cosmic magic.      
+]]></entry>
+
+
+		<entry id="action_verbose_body_camping_trainer_astronomer"><![CDATA[Wisdom and Cosmic power is what makes the Astronomer a formidable ally.    
+
+]]></entry>
+
+		<entry id="combat_skill_name_astronomer_staff_bash"><![CDATA[Staff Bash]]></entry>
+		<entry id="combat_skill_name_astronomer_solar_flare"><![CDATA[Solar Flare]]></entry>
+    		<entry id="combat_skill_name_astronomer_black_hole"><![CDATA[Black Hole]]></entry>
+    		<entry id="combat_skill_name_astronomer_earth_is_round"><![CDATA[Earth is Round]]></entry>
+    		<entry id="combat_skill_name_astronomer_galaxy_swirl"><![CDATA[Galaxy Swirl]]></entry>
+    		<entry id="combat_skill_name_astronomer_wormhole_hook"><![CDATA[Wormhole Hook]]></entry>
+    		<entry id="combat_skill_name_astronomer_rings_of_saturn"><![CDATA[Rings of Saturn]]></entry>
+    		<entry id="combat_skill_name_astronomer_move"><![CDATA[Move]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.staff_bash"><![CDATA[Staff Bash]]></entry>
+		<entry id="upgrade_tree_name_astronomer.solar_flare"><![CDATA[Solar Flare]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.black_hole"><![CDATA[Black Hole]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.earth_is_round"><![CDATA[Earth is Round]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.galaxy_swirl"><![CDATA[Galaxy Swirl]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.wormhole_hook"><![CDATA[Wormhole Hook]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.rings_of_saturn"><![CDATA[Rings of Saturn]]></entry>
+
+		<entry id="astronomer_weapon_0"><![CDATA[Dull Dagger]]></entry>
+		<entry id="astronomer_weapon_1"><![CDATA[Hidden Dagger]]></entry>
+    		<entry id="astronomer_weapon_2"><![CDATA[Deadly Dagger]]></entry>
+    		<entry id="astronomer_weapon_3"><![CDATA[Manslayer Deagger]]></entry>
+    		<entry id="astronomer_weapon_4"><![CDATA["Lady's Charm"]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.weapon"><![CDATA[Hidden Blade]]></entry>
+    		<entry id="astronomer_armour_0"><![CDATA[Tatter Dress]]></entry>
+    		<entry id="astronomer_armour_1"><![CDATA[Worn Dress]]></entry> 
+    		<entry id="astronomer_armour_2"><![CDATA[Lovely Dress]]></entry>
+    		<entry id="astronomer_armour_3"><![CDATA[Sexy Dress]]></entry>
+    		<entry id="astronomer_armour_4"><![CDATA["Evening Gown"]]></entry>
+    		<entry id="upgrade_tree_name_astronomer.armour"><![CDATA[Night Dress]]></entry>
+
+		<entry id="camping_skill_name_abandon_hope"><![CDATA[ABANDON HOPE]]></entry>
+		<entry id="camping_skill_name_dark_ritual"><![CDATA[DARK RITUAL]]></entry>
+		<entry id="camping_skill_name_dark_strength"><![CDATA[DARK STRENGTH]]></entry>
+		<entry id="camping_skill_name_unspeakable_commune"><![CDATA[UNSPEAKABLE_COMMUNE]]></entry>
+
+		<entry id="str_bark_abandon_hope"><![CDATA[I will do all that I can to help.]]></entry>
+		<entry id="str_bark_dark_ritual"><![CDATA[May the stars protect you.]]></entry>
+		<entry id="str_bark_dark_strength"><![CDATA[Wish I may, wish I might...]]></entry>
+		<entry id="str_bark_unspeakable_commune"><![CDATA[May the stars keep you safe...]]></entry>		
+	
+
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[Out spot, out!]]></entry>
+
+
+	     <entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+ 	     <entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+		<entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+		<entry id="astronomer+str_critbyhero"><![CDATA[I feel the power of my magic...]]></entry>
+	   
+	  
+	     <entry id="astronomer+str_afflicted_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_afflicted_paranoia"><![CDATA[I feel the power of my magic...]]></entry>
+	     
+	     <entry id="astronomer+str_afflicted_masochism"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_afflicted_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_afflicted_selfishness"><![CDATA[I feel the power of my magic...]]></entry>
+	     
+	     <entry id="astronomer+str_afflicted_depression"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_afflicted_irrationality"><![CDATA[I feel the power of my magic...]]></entry>
+	   
+	     <entry id="astronomer+str_virtued_stalwart"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_virtued_courageous"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_virtued_focused"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_virtued_powerful"><![CDATA[I feel the power of my magic...]]></entry>
+	   
+	     <entry id="astronomer+str_virtued_prosperous"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_virtued_vigorous"><![CDATA[I feel the power of my magic...]]></entry>
+		 
+	     <entry id="astronomer+str_stress_heal_self_stalwart"><![CDATA[I feel the power of my magic...]]></entry>
+	   
+	     <entry id="astronomer+str_stress_heal_party_courageous"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_buff_random_party_member_focused"><![CDATA[I feel the power of my magic...]]></entry>
+	    
+	     <entry id="astronomer+str_buff_party_powerful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_buff_party_powerful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_heal_self_vigorous"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_heal_self_vigorous"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_fwd_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_change_pos_back_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_ignore_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_random_command_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_stress_camp_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_mark_self_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_friendly_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_attack_self_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_combat_retreat_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_self_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_attack_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_hit_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_comment_ally_missed_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_move_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_item_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_heal_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_block_buff_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     
+	     <entry id="astronomer+str_monster_attack_unholy_smite"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_monster_attack_unholy_judgement"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_monster_attack_unholy_curse"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_encourage"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_encourage"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_encourage"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_first_aid"><![CDATA[astronomer Mod Class Creatured by ActionJack]]></entry>
+	     <entry id="astronomer+str_bark_first_aid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_first_aid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_pep_talk"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_pep_talk"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_pep_talk"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_hobby"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_hobby"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_hobby"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_bark_deathsdoor"><![CDATA[But.. I saved so many lives!]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_masochistic"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillUseBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_fearful"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_abusive"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_selfish"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingSkillBenefitBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_paranoid"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_masochist"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_depressed"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>
+	     <entry id="astronomer+str_campingMealBalk_irrational"><![CDATA[I feel the power of my magic...]]></entry>   
+	</language>
+</root>
