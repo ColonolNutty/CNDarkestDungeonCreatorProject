@@ -8,7 +8,7 @@ import com.colonolnutty.module.shareddata.models.settings.BasicSettings;
 import com.colonolnutty.module.shareddata.ui.IMainFunctionPanel;
 import com.colonolnutty.module.shareddata.ui.OutputDisplay;
 import com.colonolnutty.module.shareddata.ui.ProgressDisplay;
-import main.MCMain;
+import main.ModConversionMain;
 import main.settings.MCCRData;
 import main.settings.MCSettings;
 
@@ -72,9 +72,9 @@ public class MainPanel implements IMainFunctionPanel {
                             _outputDisplay.clear();
                             _settingsDisplay.disable();
                             _progressDisplay.reset();
-                            MCMain balancer = new MCMain(_settings,
+                            ModConversionMain mcMain = new ModConversionMain(_settings,
                                     _log, _progressDisplay);
-                            balancer.run();
+                            mcMain.run();
                             Hashtable<String, MessageBundle> messages = _log.getMessages();
                             _outputDisplay.updateTreeDisplay(messages);
                         }

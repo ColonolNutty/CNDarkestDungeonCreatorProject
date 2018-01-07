@@ -15,6 +15,8 @@ public class MCCRData extends CRData<MCSettings> {
     public ArrayList<String> getPropertyNames() {
         ArrayList<String> settings = new ArrayList<String>();
         settings.add("modsFolder");
+        settings.add("projectFileTemplate");
+        settings.add("previewIconTemplate");
         return settings;
     }
 
@@ -25,6 +27,9 @@ public class MCCRData extends CRData<MCSettings> {
 
     @Override
     public boolean settingsAreValid(MCSettings mcSettings, CNLog cnLog) {
-        return verifySettings(cnLog, mcSettings, mcSettings.modsFolder);
+        return verifySettings(cnLog, mcSettings,
+                mcSettings.modsFolder,
+                mcSettings.projectFileTemplate,
+                mcSettings.previewIconTemplate);
     }
 }

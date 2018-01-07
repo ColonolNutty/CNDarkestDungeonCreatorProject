@@ -11,4 +11,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class MCSettings extends CNBaseSettings {
     public String modsFolder;
+    public String projectFileTemplate;
+    public String previewIconTemplate;
 }

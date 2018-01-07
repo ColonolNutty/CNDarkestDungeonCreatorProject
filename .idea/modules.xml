@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" filepath="$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CNDDCreator.Shared.Tests/CNDDCreator.Shared.Tests.iml" filepath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/CNDDCreator.Shared.Tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" filepath="$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/CNDDModConversionModule/CNDDModConversionModule.iml" filepath="$PROJECT_DIR$/CNDDModConversionModule/CNDDModConversionModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/CNDDModConversionModule.Tests.iml" filepath="$PROJECT_DIR$/CNDDModConversionModule.Tests/CNDDModConversionModule.Tests.iml" />

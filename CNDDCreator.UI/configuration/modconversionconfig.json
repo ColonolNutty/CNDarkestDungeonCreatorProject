@@ -3,5 +3,7 @@
   "enableConsoleDebug" : true,
   "enableTreeView" : true,
   "enableVerboseLogging" : true,
-  "modsFolder" : "TestFiles\\TestMods"
+  "modsFolder" : "TestFiles\\TestMods",
+  "projectFileTemplate" : "Templates\\ModConversionTemplates\\projectTemplate.xml",
+  "previewIconTemplate" : "Templates\\ModConversionTemplates\\preview_icon.png"
 }

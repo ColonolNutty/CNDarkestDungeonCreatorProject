@@ -2,11 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7d2c3c-dd12-49b7-bbbf-699e5cadbda1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/CNDDCreator.Shared.Tests.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/TestFiles/testProjectFile.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/btf-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/byte-buddy-1.6.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/byte-buddy-agent-1.6.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/guava-23.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/hamcrest-core-1.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jackson-annotations-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jackson-core-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jackson-coreutils-1.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jackson-databind-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jaxb-api.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jaxb-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jaxb-impl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jaxb-jxc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/jaxb-xjc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/json-20170516.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/json-patch-1.9.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/junit-4.12.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/mockito-core-2.12.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/msg-simple-1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/lib/objenesis-2.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/io/XmlReaderTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/io/XmlWriterTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-api.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-impl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-jxc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-xjc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/LanguageType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Project.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Tags.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/UploadModeType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/Templates/ModConversionTemplates/preview_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/Templates/ModConversionTemplates/projectTemplate.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/btf-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/guava-23.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jackson-annotations-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jackson-core-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jackson-coreutils-1.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jackson-databind-2.2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jaxb-api.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jaxb-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jaxb-impl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jaxb-jxc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/jaxb-xjc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/json-20170516.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/json-patch-1.9.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDCreator.UI/lib/msg-simple-1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolder/SomeOtherFolder/someotherfile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolder/somefilethree.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolderTwo/somefile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/somerootfile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/FileFinderTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/ModFilesCreatorTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/FileFinder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/IFileFinder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModFilesCreator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/PreviewIconCreator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/ProjectFileCreator.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CNDDCreator_Shared_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CNDDCreator_UI_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CNDDCreator_UI_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CNDDModConversionModule_Tests_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CNDDModConversionModule_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CNDDModConversionModule_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" afterPath="$PROJECT_DIR$/CNDDCreator.Shared/CNDDCreator.Shared.iml" />
+      <change beforePath="$PROJECT_DIR$/CNDDCreator.Shared/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" afterPath="$PROJECT_DIR$/CNDDCreator.UI/CNDDCreator.UI.iml" />
       <change beforePath="$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json" afterPath="$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json" />
       <change beforePath="$PROJECT_DIR$/CNDDCreator.UI/modules/CNDDModConversionModule.jar" afterPath="$PROJECT_DIR$/CNDDCreator.UI/modules/CNDDModConversionModule.jar" />
-      <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" />
-      <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MCSettingsDisplay.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MCSettingsDisplay.java" />
+      <change beforePath="$PROJECT_DIR$/CNDDCreator.UI/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/CNDDCreator.UI/src/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java" />
+      <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java" />
       <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java" />
       <change beforePath="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java" afterPath="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java" />
     </list>
@@ -19,15 +93,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MCSettingsDisplay.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MCSettingsDisplay.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="ModConversionMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3129">
-              <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
+            <state relative-caret-position="565">
+              <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewIconCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/PreviewIconCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MCSettings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,9 +131,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testFolder</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,26 +168,53 @@
         <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/ConfigReader.java" />
         <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/FileReaderWrapper.java" />
         <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/FileWriterWrapper.java" />
-        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java" />
         <option value="$PROJECT_DIR$/CNDDCreator.UI/src/colonolnutty/Main.java" />
-        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java" />
         <option value="$PROJECT_DIR$/CNDDCreator.UI/src/com/main/Main.java" />
         <option value="$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/Main.java" />
-        <option value="$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json" />
-        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java" />
-        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java" />
-        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" />
         <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MCSettingsDisplay.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Language.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/models/ProjectFile.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/models/Project.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/XmlReader.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlReader.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlReader.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/LanguageType.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/VisibilityType.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/UploadModeType.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/TagsList.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Tags.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared.Tests/TestFiles/testProjectFile.xml" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/XmlReaderTests.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlWriter.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/io/XmlWriterTests.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlWriter.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/ModFilesCreator.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/FileFinderTests.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/IFileFinder.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Project.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/ModFilesCreatorTests.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModFilesCreator.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/FileFinder.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/ProjectFileCreator.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/PreviewIconCreator.java" />
+        <option value="$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java" />
+        <option value="$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="879" />
-    <option name="y" value="-9" />
+    <option name="x" value="669" />
+    <option name="y" value="73" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -104,7 +231,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,58 +241,25 @@
             <path>
               <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDCreator.UI" type="462c0819:PsiDirectoryNode" />
+              <item name="CNDDCreator.Shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
               <item name="CNDDCreator.UI" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
               <item name="CNDDCreator.UI" type="462c0819:PsiDirectoryNode" />
-              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDCreator.UI" type="462c0819:PsiDirectoryNode" />
-              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="TestMods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDModConversionModule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDModConversionModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDModConversionModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNDarkestDungeonCreatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNDarkestDungeonCreatorProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CNDDModConversionModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -177,16 +270,19 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNDDCreator.UI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNDDCreator.UI/lib/msg-simple-1.1.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27117532" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDModConversionModule.Tests\TestFiles\TestFolder" />
       <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.UI\TestFiles\TestMods" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.io" />
+      <recent name="com.colonolnutty.module.shareddata.io" />
       <recent name="com.colonolnutty.module.shareddata" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -197,11 +293,11 @@
       <recent name="main.settings" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\lib" />
-      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.UI\src" />
-      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.Shared\lib" />
-      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.Shared\src\com\colonolnutty\module\shareddata" />
-      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.Shared\src\com\colonolnutty\module\shareddata\debug" />
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.UI\Templates\ModConversionTemplates" />
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.UI\lib" />
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDModConversionModule\Template" />
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.Shared.Tests\TestFiles" />
+      <recent name="C:\Users\Jack's Computer\IdeaProjects\CNDarkestDungeonCreatorProject\CNDDCreator.Shared.Tests\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -258,18 +354,143 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="FileFinderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CNDDModConversionModule.Tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FileFinderTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ModFilesCreatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CNDDModConversionModule.Tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ModFilesCreatorTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ModFilesCreatorTests.should_change_file_path_to_relative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CNDDModConversionModule.Tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ModFilesCreatorTests" />
+      <option name="METHOD_NAME" value="should_change_file_path_to_relative" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ModFilesCreatorTests.should_get_a_list_of_all_files_in_folder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CNDDModConversionModule.Tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ModFilesCreatorTests" />
+      <option name="METHOD_NAME" value="should_get_a_list_of_all_files_in_folder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ModFilesCreatorTests.should_write_mod_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CNDDModConversionModule.Tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ModFilesCreatorTests" />
+      <option name="METHOD_NAME" value="should_write_mod_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -322,6 +543,23 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_get_a_list_of_all_files_in_folder" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_change_file_path_to_relative" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_write_mod_file" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FileFinderTests" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FileFinderTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_write_mod_file" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_get_a_list_of_all_files_in_folder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ModFilesCreatorTests.should_change_file_path_to_relative" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -339,36 +577,67 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FileFinderTests - 2018.01.06 at 15h 36m 35s.xml">
+      <configuration name="FileFinderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests - 2018.01.06 at 15h 36m 26s.xml">
+      <configuration name="ModFilesCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests - 2018.01.06 at 16h 36m 48s.xml">
+      <configuration name="ModFilesCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests - 2018.01.06 at 16h 37m 19s.xml">
+      <configuration name="ModFilesCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 18m 29s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 21m 44s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 22m 11s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 22m 28s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 23m 42s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModFilesCreatorTests_should_write_mod_file - 2018.01.06 at 15h 23m 57s.xml">
+      <configuration name="ModFilesCreatorTests.should_write_mod_file" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33012047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5054289" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44096386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31053203" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39951864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -376,347 +645,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java</url>
-          <line>53</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/debug/MessageBundler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/debug/ConsoleDebugWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/CNMathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/CNStringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/StopWatchTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/CNCollectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/CNJsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/utils/CNFileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/debug/DebugWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/MessageBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/debug/CNLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/ConfirmationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/OutputDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/ProgressDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/HighlightableTreeCellRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/ProgressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/CNUIExtensions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/SettingsDisplayBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/ui/MainFunctionPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/settings/BaseSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IFileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IWriteFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IReadFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/settings/CRData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/ConfigReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/MapperWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/FileReaderWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/FileWriterWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/MainFunctionModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/NodeProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/ConfigWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/ui/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/ModuleLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/ConfigWriter.java" />
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/ui/MainWindow.java" />
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/ModuleLoader.java" />
     <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/src/com/colonolnutty/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,85 +664,320 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/models.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1806#1818#0" expanded="false" />
-            <element signature="e#4438#4439#0" expanded="false" />
-            <element signature="e#4477#4478#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="70" lean-forward="false" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#410#418#0" expanded="false" />
-            <element signature="e#544#545#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/models.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/GroupLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="207" column="13" lean-forward="false" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MCSettingsDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3129">
+        <state relative-caret-position="923">
           <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/Sample/Arachnid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/Sample/project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/VisibilityType.java" />
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/io/XmlReaderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Tags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/TagsList.java" />
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/LanguageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/UploadModeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolderTwo/somefile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolder/SomeOtherFolder/someotherfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/somerootfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/SomeFolder/somefilethree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared.Tests/TestFiles/testProjectFile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/CNModuleDependencies.jar!/com/colonolnutty/module/shareddata/io/IFileWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/CNModuleDependencies.jar!/com/colonolnutty/module/shareddata/io/FileWriterWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/Sample/modfiles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/XmlWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared.Tests/src/tests/io/XmlWriterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/CNModuleDependencies.jar!/com/colonolnutty/module/shareddata/utils/CNCollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/TestFiles/TestFolder/modfiles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/FileFinderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="510" column="18" lean-forward="false" selection-start-line="510" selection-start-column="18" selection-end-line="510" selection-end-column="18" />
+          <folding>
+            <element signature="e#21135#21136#0" expanded="false" />
+            <element signature="e#21162#21163#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/CNModuleDependencies.jar!/com/colonolnutty/module/shareddata/debug/CNLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/Templates/ModConversionTemplates/projectTemplate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/MCMain.java" />
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/cnddmodconversionmodule/ui/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/models/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/TestFiles/TestMods/TestMod/modfiles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule.Tests/src/tests/ModFilesCreatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#ModFilesCreatorTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/TestFiles/TestMods/TestMod/TestMod.xml" />
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.Shared/src/com/colonolnutty/module/shareddata/io/IXmlWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/ProjectFileCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding>
+            <element signature="method#readTemplateProject#0;class#ProjectFileCreator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/FileFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/IFileFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/ModFilesCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/Templates/ModConversionTemplates/preview_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/ModConversionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/PreviewIconCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCCRData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDCreator.UI/configuration/modconversionconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNDDModConversionModule/src/main/settings/MCSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +1004,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.27117532" />
               </list>
             </option>
           </splitter-proportions>
@@ -860,11 +1035,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Shared|CNDDCreator</last-edited>
+          <last-edited>UI|CNDDCreator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.27117532" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

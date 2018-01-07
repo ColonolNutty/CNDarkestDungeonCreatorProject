@@ -1,0 +1,5 @@
+modfiles.txt 1
+SomeFolder/somefilethree.txt 2
+SomeFolder/SomeOtherFolder/someotherfile.txt 3
+SomeFolderTwo/somefile.txt 4
+somerootfile.txt 5

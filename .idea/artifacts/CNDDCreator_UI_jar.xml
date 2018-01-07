@@ -10,6 +10,11 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-core-2.2.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-coreutils-1.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jackson-databind-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-core.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-impl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-jxc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/jaxb-xjc.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/json-20170516.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/json-patch-1.9.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/CNDDCreator.Shared/lib/msg-simple-1.1.jar" path-in-jar="/" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <PreviewIconFile>preview_icon.png</PreviewIconFile>
+    <ItemDescriptionShort>astronomer</ItemDescriptionShort>
+    <ModDataPath>astronomer</ModDataPath>
+    <Title>astronomer</Title>
+    <Language>english</Language>
+    <UpdateDetails></UpdateDetails>
+    <Visibility>private</Visibility>
+    <UploadMode>direct_upload</UploadMode>
+    <VersionMajor>1</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <TargetBuild>0</TargetBuild>
+    <Tags>
+        <Tags>Character Mod</Tags>
+        <Tags>Class Mod</Tags>
+        <Tags>New Class</Tags>
+    </Tags>
+    <ItemDescription>astronomer</ItemDescription>
+</project>
