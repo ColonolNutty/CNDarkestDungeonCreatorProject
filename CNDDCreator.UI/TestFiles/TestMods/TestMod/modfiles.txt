@@ -97,6 +97,7 @@ heroes/astronomer/icons_equip/eqp_weapon_3.png 96
 heroes/astronomer/icons_equip/eqp_weapon_4.png 97
 localization/astronomer.string_table.xml 98
 modfiles.txt 99
-project.xml 100
-raid/camping/astronomer.camping_skills.json 101
-upgrades/heroes/astronomer.upgrades.json 102
+preview_icon.png 100
+project.xml 101
+raid/camping/astronomer.camping_skills.json 102
+upgrades/heroes/astronomer.upgrades.json 103

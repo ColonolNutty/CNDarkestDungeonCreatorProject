@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="CNDDModConversionModule" />
+    <orderEntry type="module" module-name="CNDDCreator.Shared" scope="TEST" />
     <orderEntry type="module-library">
       <library name="CNDDModuleConversionModule.Tests">
         <CLASSES>
@@ -32,5 +32,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="CNModuleDependencies" level="project" />
+    <orderEntry type="module" module-name="CNDDModConversionModule" />
   </component>
 </module>

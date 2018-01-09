@@ -2,24 +2,12 @@ package tests;
 
 import com.colonolnutty.module.shareddata.debug.CNLog;
 import com.colonolnutty.module.shareddata.debug.ConsoleDebugWriter;
-import com.colonolnutty.module.shareddata.io.IFileWriter;
+import com.colonolnutty.module.shareddata.io.FileFinder;
 import com.colonolnutty.module.shareddata.prettyprinters.BasePrettyPrinter;
-import main.FileFinder;
 import main.ModFilesCreator;
 import org.junit.Test;
-import org.mockito.ArgumentMatchers;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Hashtable;
 
 import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertNotNull;
-import static junit.framework.TestCase.assertTrue;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 /**
  * User: Jack's Computer

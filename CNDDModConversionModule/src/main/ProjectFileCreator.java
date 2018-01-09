@@ -1,10 +1,7 @@
 package main;
 
 import com.colonolnutty.module.shareddata.debug.CNLog;
-import com.colonolnutty.module.shareddata.io.IXmlReader;
-import com.colonolnutty.module.shareddata.io.IXmlWriter;
-import com.colonolnutty.module.shareddata.io.XmlReader;
-import com.colonolnutty.module.shareddata.io.XmlWriter;
+import com.colonolnutty.module.shareddata.io.*;
 import com.colonolnutty.module.shareddata.models.Project;
 import main.settings.MCSettings;
 

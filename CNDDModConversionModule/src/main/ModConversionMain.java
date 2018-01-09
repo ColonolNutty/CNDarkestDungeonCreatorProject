@@ -2,15 +2,13 @@ package main;
 
 import com.colonolnutty.module.shareddata.MainFunctionModule;
 import com.colonolnutty.module.shareddata.debug.CNLog;
-import com.colonolnutty.module.shareddata.io.FileReaderWrapper;
-import com.colonolnutty.module.shareddata.io.IFileReader;
-import com.colonolnutty.module.shareddata.io.IReadFiles;
+import com.colonolnutty.module.shareddata.io.FileFinder;
+import com.colonolnutty.module.shareddata.io.IFileFinder;
 import com.colonolnutty.module.shareddata.ui.ProgressController;
 import com.colonolnutty.module.shareddata.utils.StopWatchTimer;
 import main.settings.MCSettings;
 
 import java.io.File;
-import java.util.ArrayList;
 
 /**
  * User: Jack's Computer
@@ -38,7 +36,7 @@ public class ModConversionMain extends MainFunctionModule {
         }
         StopWatchTimer timer = new StopWatchTimer(_log);
         timer.start();
-        FileFinder finder = new FileFinder();
+        IFileFinder finder = new FileFinder();
         ProjectFileCreator projectFileCreator = new ProjectFileCreator(_log, _settings, finder);
         ModFilesCreator modFilesCreator = new ModFilesCreator(_log, finder);
         PreviewIconCreator previewIconCreator = new PreviewIconCreator(_log, _settings);
