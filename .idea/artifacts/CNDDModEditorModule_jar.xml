@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="CNDDModEditorModule:jar">
+  <artifact type="jar" build-on-make="true" name="CNDDModEditorModule:jar">
     <output-path>$PROJECT_DIR$/CNDDCreator.UI/modules</output-path>
     <root id="archive" name="CNDDModEditorModule.jar">
       <element id="module-output" name="CNDDModEditorModule" />

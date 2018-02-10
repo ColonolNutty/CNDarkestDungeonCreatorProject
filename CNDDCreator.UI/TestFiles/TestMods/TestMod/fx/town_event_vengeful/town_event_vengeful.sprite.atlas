@@ -1,0 +1,20 @@
+
+town_event_vengeful.sprite.png
+size: 341,148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anger
+  rotate: false
+  xy: 187, 54
+  size: 152, 92
+  orig: 152, 92
+  offset: 0, 0
+  index: -1
+tusk
+  rotate: true
+  xy: 2, 2
+  size: 144, 183
+  orig: 144, 183
+  offset: 0, 0
+  index: -1

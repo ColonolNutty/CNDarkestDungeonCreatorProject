@@ -1,0 +1,20 @@
+
+tusk.sprite.spit.png
+size: 202,61
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01 copy
+  rotate: false
+  xy: 137, 2
+  size: 63, 57
+  orig: 63, 57
+  offset: 0, 0
+  index: -1
+02 copy
+  rotate: false
+  xy: 2, 10
+  size: 133, 49
+  orig: 133, 49
+  offset: 0, 0
+  index: -1

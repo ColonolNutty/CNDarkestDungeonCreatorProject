@@ -1,0 +1,34 @@
+
+tusk.sprite.spit_target.png
+size: 425,198
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anger copy
+  rotate: true
+  xy: 198, 23
+  size: 173, 149
+  orig: 173, 149
+  offset: 0, 0
+  index: -1
+drop copy
+  rotate: false
+  xy: 349, 103
+  size: 74, 93
+  orig: 74, 93
+  offset: 0, 0
+  index: -1
+light copy
+  rotate: false
+  xy: 2, 2
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+splash copy 2
+  rotate: true
+  xy: 349, 5
+  size: 96, 68
+  orig: 96, 68
+  offset: 0, 0
+  index: -1

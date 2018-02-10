@@ -1,0 +1,34 @@
+
+tusk.sprite.mastodon.png
+size: 2530,639
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light1 copy
+  rotate: false
+  xy: 772, 9
+  size: 749, 628
+  orig: 749, 628
+  offset: 0, 0
+  index: -1
+light2 copy 2
+  rotate: false
+  xy: 2031, 125
+  size: 497, 512
+  orig: 497, 512
+  offset: 0, 0
+  index: -1
+light2 copy 3
+  rotate: false
+  xy: 1523, 116
+  size: 506, 521
+  orig: 506, 521
+  offset: 0, 0
+  index: -1
+motion copy 2
+  rotate: false
+  xy: 2, 2
+  size: 768, 635
+  orig: 768, 635
+  offset: 0, 0
+  index: -1

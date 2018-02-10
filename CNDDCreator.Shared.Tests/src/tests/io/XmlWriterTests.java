@@ -2,7 +2,7 @@ package tests.io;
 
 import com.colonolnutty.module.shareddata.io.XmlReader;
 import com.colonolnutty.module.shareddata.io.XmlWriter;
-import com.colonolnutty.module.shareddata.models.Project;
+import com.colonolnutty.module.shareddata.models.project.Project;
 import org.junit.Test;
 
 import java.io.File;

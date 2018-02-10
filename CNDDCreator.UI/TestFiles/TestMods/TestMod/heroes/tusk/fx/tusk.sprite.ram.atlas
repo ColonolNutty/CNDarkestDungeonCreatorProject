@@ -1,0 +1,20 @@
+
+tusk.sprite.ram.png
+size: 1327,593
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big game copy 4
+  rotate: false
+  xy: 2, 2
+  size: 657, 589
+  orig: 657, 589
+  offset: 0, 0
+  index: -1
+big game copy 5
+  rotate: false
+  xy: 661, 10
+  size: 664, 581
+  orig: 664, 581
+  offset: 0, 0
+  index: -1

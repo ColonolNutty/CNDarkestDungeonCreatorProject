@@ -1,0 +1,34 @@
+
+tusk.sprite.trample.png
+size: 1201,659
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dirt copy
+  rotate: false
+  xy: 767, 12
+  size: 231, 122
+  orig: 231, 122
+  offset: 0, 0
+  index: -1
+motion copy
+  rotate: false
+  xy: 2, 2
+  size: 763, 655
+  orig: 763, 655
+  offset: 0, 0
+  index: -1
+smoke1 copy
+  rotate: true
+  xy: 767, 136
+  size: 521, 248
+  orig: 521, 248
+  offset: 0, 0
+  index: -1
+smoke2 copy
+  rotate: true
+  xy: 1017, 275
+  size: 382, 182
+  orig: 382, 182
+  offset: 0, 0
+  index: -1

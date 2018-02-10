@@ -1,0 +1,20 @@
+
+tusk.sprite.attack_bite_me.png
+size: 652,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bite me copy
+  rotate: true
+  xy: 2, 2
+  size: 416, 575
+  orig: 416, 575
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 579, 59
+  size: 359, 71
+  orig: 359, 71
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,8 @@
+{
+  "logFile" : "logs\\updatelog.log",
+  "enableConsoleDebug" : true,
+  "enableTreeView" : true,
+  "enableVerboseLogging" : true,
+  "modFolder" : "TestFiles\\TestMods\\TestMod",
+  "projectFile" : "TestFiles\\TestMods\\TestMod\\project.xml"
+}

@@ -1,0 +1,27 @@
+
+tusk.sprite.irascible.png
+size: 592,622
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+angry copy
+  rotate: true
+  xy: 2, 2
+  size: 432, 588
+  orig: 432, 588
+  offset: 0, 0
+  index: -1
+aura copy
+  rotate: true
+  xy: 2, 438
+  size: 182, 207
+  orig: 182, 207
+  offset: 0, 0
+  index: -1
+puff copy
+  rotate: false
+  xy: 211, 436
+  size: 331, 184
+  orig: 331, 184
+  offset: 0, 0
+  index: -1

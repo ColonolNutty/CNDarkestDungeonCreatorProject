@@ -1,7 +1,10 @@
 package tests.io;
 
 import com.colonolnutty.module.shareddata.io.XmlReader;
-import com.colonolnutty.module.shareddata.models.*;
+import com.colonolnutty.module.shareddata.models.project.LanguageType;
+import com.colonolnutty.module.shareddata.models.project.Project;
+import com.colonolnutty.module.shareddata.models.project.Tags;
+import com.colonolnutty.module.shareddata.models.project.UploadModeType;
 import org.junit.Test;
 
 import javax.xml.bind.JAXBException;

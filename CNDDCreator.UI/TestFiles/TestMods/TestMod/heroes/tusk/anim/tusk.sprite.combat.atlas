@@ -1,0 +1,125 @@
+
+tusk.sprite.combat.png
+size: 893,547
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL1 copy
+  rotate: false
+  xy: 115, 7
+  size: 94, 115
+  orig: 94, 115
+  offset: 0, 0
+  index: -1
+armL2 copy
+  rotate: true
+  xy: 795, 404
+  size: 57, 90
+  orig: 57, 90
+  offset: 0, 0
+  index: -1
+armR copy 2
+  rotate: true
+  xy: 693, 42
+  size: 124, 198
+  orig: 124, 198
+  offset: 0, 0
+  index: -1
+body copy 2
+  rotate: false
+  xy: 2, 124
+  size: 340, 421
+  orig: 340, 421
+  offset: 0, 0
+  index: -1
+boobs copy 2
+  rotate: true
+  xy: 341, 27
+  size: 95, 69
+  orig: 95, 69
+  offset: 0, 0
+  index: -1
+cloth copy 4
+  rotate: false
+  xy: 642, 37
+  size: 49, 129
+  orig: 49, 129
+  offset: 0, 0
+  index: -1
+fang copy 2
+  rotate: true
+  xy: 412, 6
+  size: 140, 68
+  orig: 140, 68
+  offset: 0, 0
+  index: -1
+head copy 2
+  rotate: true
+  xy: 482, 10
+  size: 136, 158
+  orig: 136, 158
+  offset: 0, 0
+  index: -1
+natte copy 3
+  rotate: false
+  xy: 538, 168
+  size: 182, 377
+  orig: 182, 377
+  offset: 0, 0
+  index: -1
+noeud copy 2
+  rotate: true
+  xy: 693, 3
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+pauldronB copy 5
+  rotate: true
+  xy: 795, 198
+  size: 125, 85
+  orig: 125, 85
+  offset: 0, 0
+  index: -1
+pauldronL copy 2
+  rotate: false
+  xy: 795, 325
+  size: 86, 77
+  orig: 86, 77
+  offset: 0, 0
+  index: -1
+pauldronR copy 2
+  rotate: true
+  xy: 2, 2
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+piston
+  rotate: false
+  xy: 211, 23
+  size: 128, 99
+  orig: 128, 99
+  offset: 0, 0
+  index: -1
+plackart copy 2
+  rotate: false
+  xy: 795, 463
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 722, 186
+  size: 359, 71
+  orig: 359, 71
+  offset: 0, 0
+  index: -1
+tusk copy 5
+  rotate: true
+  xy: 344, 148
+  size: 397, 192
+  orig: 397, 192
+  offset: 0, 0
+  index: -1

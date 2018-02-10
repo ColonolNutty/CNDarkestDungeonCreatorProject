@@ -2,7 +2,7 @@ package main;
 
 import com.colonolnutty.module.shareddata.debug.CNLog;
 import com.colonolnutty.module.shareddata.io.*;
-import com.colonolnutty.module.shareddata.models.Project;
+import com.colonolnutty.module.shareddata.models.project.Project;
 import main.settings.MCSettings;
 
 import javax.xml.bind.JAXBException;

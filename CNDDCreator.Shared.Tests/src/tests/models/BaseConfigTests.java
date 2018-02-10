@@ -1,7 +1,12 @@
 package tests.models;
 
 import com.colonolnutty.module.shareddata.models.BaseConfig;
+import com.colonolnutty.module.shareddata.models.ConfigProperty;
+import com.colonolnutty.module.shareddata.models.PropertyName;
+import com.colonolnutty.module.shareddata.models.ValueType;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static junit.framework.TestCase.*;
 
@@ -11,120 +16,49 @@ import static junit.framework.TestCase.*;
  * Time: 1:07 PM
  */
 public class BaseConfigTests {
-    private TestConfig _config;
+    private BaseConfig _config;
 
     public BaseConfigTests() {
-        _config = new TestConfig();
+        _config = BaseConfig.parseEmpty();
     }
 
     @Test
-    public void should_give_null_for_null_name() {
-        String expectedResult = "";
-        String name = null;
-        boolean escapeValue = false;
-        String value = "Something";
-        String result = _config.formatStrings(name, escapeValue, value);
-        assertEquals(expectedResult, result);
+    public void should_format_toString_properly() {
+        String line = "armour: .name \"some armor_1\" \"what\" .def 15% 20% .card_chance 2.5 2.8 .hp 35 40 .spd 3 .upgradeRequirementCode 1 .self_target_valid true .target  .spd 5";
+        BaseConfig baseConfig = BaseConfig.parse(line);
+        String result = baseConfig.toString();
+        assertTrue(result.contains(" .name \"some armor_1\" \"what\""));
+        assertTrue(result.contains(" .def 15% 20%"));
+        assertTrue(result.contains(" .card_chance 2.5 2.8"));
+        assertTrue(result.contains(" .hp 35 40"));
+        assertTrue(result.contains(" .spd 3"));
+        assertTrue(result.contains(" .upgradeRequirementCode 1"));
+        assertTrue(result.contains(" .self_target_valid true"));
+        assertTrue(result.contains(" .target  "));
+        assertTrue(result.contains(" .spd 5"));
+        BaseConfig baseConfigTwo = BaseConfig.parse(result);
+        assertEquals(result, baseConfigTwo.toString());
     }
 
     @Test
-    public void should_give_empty_string_for_empty_name() {
-        String expectedResult = "";
-        String name = "";
-        boolean escapeValue = false;
-        String value = "Something";
-        String result = _config.formatStrings(name, escapeValue, value);
-        assertEquals(expectedResult, result);
+    public void should_format_properties() {
+        String line = "armour: .name \"some armor_1\" \"what\" .def 15% 20% .prot 2.5 2.8 .hp 35 40 .spd 3 .upgradeRequirementCode 1 .level true .target  .crit 5";
+        BaseConfig baseConfig = BaseConfig.parse(line);
+        assertContains(baseConfig.getProperty(PropertyName.name), "some armor_1", "what");
+        assertContains(baseConfig.getProperty(PropertyName.def), "15", "20");
+        assertContains(baseConfig.getProperty(PropertyName.prot), "2.5", "2.8");
+        assertContains(baseConfig.getProperty(PropertyName.hp), "35", "40");
+        assertContains(baseConfig.getProperty(PropertyName.spd), "3");
+        assertContains(baseConfig.getProperty(PropertyName.upgradeRequirementCode), "1");
+        assertContains(baseConfig.getProperty(PropertyName.level), "true");
+        assertContains(baseConfig.getProperty(PropertyName.target), " ");
+        assertContains(baseConfig.getProperty(PropertyName.crit), "5");
     }
 
-    @Test
-    public void should_give_empty_string_for_whitespace_name() {
-        String expectedResult = "";
-        String name = "  ";
-        boolean escapeValue = false;
-        String value = "Something";
-        String result = _config.formatStrings(name, escapeValue, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_string() {
-        String expectedResult = " .one \"what\"";
-        String name ="one";
-        boolean escapeValue = true;
-        String value = "what";
-        String result = _config.formatStrings(name, escapeValue, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_unescaped_string() {
-        String expectedResult = " .one what";
-        String name ="one";
-        boolean escapeValue = false;
-        String value = "what";
-        String result = _config.formatStrings(name, escapeValue, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_multiple_strings() {
-        String expectedResult = " .one \"what\" \"what2\"";
-        String name ="one";
-        boolean escapeValue = true;
-        String value = "what";
-        String valueTwo = "what2";
-        String result = _config.formatStrings(name, escapeValue, value, valueTwo);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_double_no_decimals_exclude_percent() {
-        String expectedResult = " .one 24.0";
-        String name ="one";
-        Double value = 24.0;
-        String result = _config.formatDoubles(name, false, false, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_double_no_decimals() {
-        String expectedResult = " .one 24%";
-        String name ="one";
-        boolean escapeValue = false;
-        Double value = 24.0;
-        String result = _config.formatDoubles(name, true, true, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_double_decimals() {
-        String expectedResult = " .one 24.5%";
-        String name ="one";
-        Double value = 24.5;
-        String result = _config.formatDoubles(name, false, true, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_integer() {
-        String expectedResult = " .one 20";
-        String name ="one";
-        Integer value = 20;
-        String result = _config.formatObjects(name, value);
-        assertEquals(expectedResult, result);
-    }
-
-    @Test
-    public void should_format_boolean() {
-        String expectedResult = " .one true";
-        String name ="one";
-        Boolean value = true;
-        String result = _config.formatObjects(name, value);
-        assertEquals(expectedResult, result);
-    }
-
-    private class TestConfig extends BaseConfig {
-
+    private void assertContains(ConfigProperty property, String... vals) {
+        ArrayList<String> arr = property.getValues();
+        for(String val : vals) {
+            assertTrue(arr.contains(val));
+        }
     }
 }

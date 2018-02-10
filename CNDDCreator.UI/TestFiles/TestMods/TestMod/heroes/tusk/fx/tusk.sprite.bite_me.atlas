@@ -1,0 +1,34 @@
+
+tusk.sprite.bite_me.png
+size: 1172,428
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light1 copy 2
+  rotate: true
+  xy: 2, 10
+  size: 416, 575
+  orig: 416, 575
+  offset: 0, 0
+  index: -1
+light2 copy 4
+  rotate: true
+  xy: 579, 46
+  size: 380, 355
+  orig: 380, 355
+  offset: 0, 0
+  index: -1
+wave 1 copy
+  rotate: true
+  xy: 936, 189
+  size: 237, 234
+  orig: 237, 234
+  offset: 0, 0
+  index: -1
+wave 2 copy
+  rotate: false
+  xy: 936, 2
+  size: 221, 185
+  orig: 221, 185
+  offset: 0, 0
+  index: -1

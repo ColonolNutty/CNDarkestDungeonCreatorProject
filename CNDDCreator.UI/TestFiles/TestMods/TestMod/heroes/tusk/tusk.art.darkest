@@ -1,0 +1,24 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "tusk_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "tusk_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "tusk_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "tusk_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "tusk_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "tusk_armour_0" .icon "eqp_armour_0.png"
+armour: .name "tusk_armour_1" .icon "eqp_armour_1.png"
+armour: .name "tusk_armour_2" .icon "eqp_armour_2.png"
+armour: .name "tusk_armour_3" .icon "eqp_armour_3.png"
+armour: .name "tusk_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "big_game" .icon "one" .anim "attack_big_game" .fx "big_game" .targchestfx "blood_splatter"
+combat_skill: .id "bite_me" .icon "two" .anim "attack_bite_me" .fx "bite_me" 
+combat_skill: .id "mastodon" .icon "three" .anim "attack_trample" .fx "mastodon" .targchestfx "blood_splatter" 
+combat_skill: .id "ram" .icon "four" .anim "attack_big_game" .fx "ram" .targchestfx "blood_splatter"
+combat_skill: .id "spit" .icon "five" .anim "attack_spit" .fx "spit" .targfx "spit_target" 
+combat_skill: .id "irascible" .icon "six" .anim "attack_irascible" .fx "irascible"
+combat_skill: .id "trample" .icon "seven" .anim "attack_trample" .fx "trample" .targchestfx "blood_splatter" 
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+riposte_skill: .id "riposte1" .anim "attack_big_game" .fx "ram" .targchestfx "blood_splatter"

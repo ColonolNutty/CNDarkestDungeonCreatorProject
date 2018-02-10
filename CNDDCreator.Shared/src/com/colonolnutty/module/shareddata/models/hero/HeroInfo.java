@@ -1,7 +1,7 @@
 package com.colonolnutty.module.shareddata.models.hero;
 
 import com.colonolnutty.module.shareddata.models.BaseConfig;
-import com.colonolnutty.module.shareddata.prettyprinters.BasePrettyPrinter;
+import com.colonolnutty.module.shareddata.models.PropertyName;
 import com.colonolnutty.module.shareddata.utils.CNStringUtils;
 
 import java.util.ArrayList;
@@ -12,99 +12,54 @@ import java.util.Hashtable;
  * Date: 01/07/2018
  * Time: 12:20 PM
  */
-public class HeroInfo extends BaseConfig {
-    public ResistancesConfig Resistance;
-    public ArrayList<WeaponConfig> Weapons;
-    public ArrayList<ArmorConfig> Armors;
-    public ArrayList<SkillConfig> Skills;
-    public ArrayList<TagConfig> Tags;
-    public DeathsDoorConfig DeathsDoor;
-    public ControlledConfig Controlled;
-    public int IdIndex;
-    public IncompatiblePartyMembersConfig IncompatiblePartyMembers;
-    public SkillSelectionConfig SkillSelection;
-    public GenerationConfig Generation;
+public class HeroInfo {
+    private String _id;
+    private Hashtable<String, ArrayList<BaseConfig>> _configs;
 
-    public HeroInfo() {
-        Weapons = new ArrayList<WeaponConfig>();
-        Armors = new ArrayList<ArmorConfig>();
-        Skills = new ArrayList<SkillConfig>();
-        Tags = new ArrayList<TagConfig>();
+    protected HeroInfo(Hashtable<String, ArrayList<BaseConfig>> configs) {
+        _configs = configs;
     }
 
-    @Override
-    public String toString() {
-        String startingStr = "";
-        StringBuilder builder = new StringBuilder();
-        builder.append(startingStr);
+    public static HeroInfo parse(ArrayList<String> infoLines) {
+        Hashtable<String, ArrayList<BaseConfig>> configs = new Hashtable<String, ArrayList<BaseConfig>>();
+        for(String infoLine : infoLines) {
+            if(CNStringUtils.isNullOrWhitespace(infoLine)) {
+                continue;
+            }
+            BaseConfig config = BaseConfig.parse(infoLine);
+            if(config == null) {
+                continue;
+            }
+            String configName = config.getConfigName();
+            ArrayList<BaseConfig> baseConfigs = new ArrayList<BaseConfig>();
+            if(configs.containsKey(configName)) {
+                baseConfigs = configs.get(configName);
+            }
+            baseConfigs.add(config);
+            configs.put(configName, baseConfigs);
+        }
+        return new HeroInfo(configs);
+    }
 
-        builder.append(getStringOrEmpty(Resistance));
-        for(WeaponConfig config : Weapons) {
-            builder.append(getStringOrEmpty(config));
+    public ArrayList<BaseConfig> getConfigs(String configName) {
+        if(configName == null || !_configs.containsKey(configName)) {
+            return new ArrayList<BaseConfig>();
         }
-        for(ArmorConfig config : Armors) {
-            builder.append(getStringOrEmpty(config));
-        }
-        for(SkillConfig config : Skills) {
-            builder.append(getStringOrEmpty(config));
-        }
-        for(TagConfig config : Tags) {
-            builder.append(getStringOrEmpty(config));
-        }
-        builder.append(getStringOrEmpty(DeathsDoor));
-        builder.append(getStringOrEmpty(Controlled));
-        builder.append(formatId(formatObjects("index", IdIndex)));
-        builder.append(getStringOrEmpty(IncompatiblePartyMembers));
-        builder.append(getStringOrEmpty(SkillSelection));
-        builder.append(getStringOrEmpty(Generation));
+        return _configs.get(configName);
+    }
 
-        String result = builder.toString();
-        if(result.equals(startingStr)) {
+    public String getId() {
+        if(_id != null) {
+            return _id;
+        }
+        if(_configs == null || _configs.containsKey("id_index")) {
             return null;
         }
-        return builder.toString();
-    }
-
-    public String getStringOrEmpty(BaseConfig value) {
-        if(value == null) {
-            return "";
+        ArrayList<BaseConfig> idArr = _configs.get("id_index");
+        if(idArr.isEmpty() || idArr.size() > 1) {
+            return null;
         }
-        return getStringOrEmpty(value.toString());
-    }
-
-
-    public String getStringOrEmpty(String value) {
-        if(CNStringUtils.isNullOrWhitespace(value)) {
-            return "";
-        }
-        return BasePrettyPrinter.NEW_LINE + value;
-    }
-
-    public String formatId(String idResult) {
-        if(CNStringUtils.isNullOrWhitespace(idResult)) {
-            return "";
-        }
-        StringBuilder builder = new StringBuilder();
-        builder.append("id_index:");
-        builder.append(getStringOrEmpty(idResult));
-        return builder.toString();
-    }
-
-    public static String getName() {
-        return "id_index";
-    }
-
-    public static boolean canParse(String str) {
-        return str.startsWith("id_index");
-    }
-
-    public static int parseId(String str) {
-        if(!canParse(str)) {
-            return -1;
-        }
-
-        Hashtable<String, ArrayList<Object>> properties = parseProperties(getName(), str);
-
-        return getSingleOrNull(properties, "index");
+        _id = idArr.get(0).getProperty(PropertyName.index).getSingleValue();
+        return _id;
     }
 }

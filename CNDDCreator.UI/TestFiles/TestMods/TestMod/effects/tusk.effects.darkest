@@ -1,0 +1,67 @@
+// Tusk Effects
+//-----------------
+//Big Game
+
+effect: .name "Tusk Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false
+
+effect: .name "Big Tusk" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Size2KillerL" "Size2KillerH" .on_hit true .on_miss false .apply_once true .skill_instant true
+
+//Bite Me
+
+effect: .name "Tusk DuelDMGA1" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15%  .on_hit true .on_miss true .duration 3
+effect: .name "Tusk DuelDMGA2" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20%  .on_hit true .on_miss true .duration 3
+effect: .name "Tusk DuelDMGA3" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25%  .on_hit true .on_miss true .duration 3
+effect: .name "Tusk DuelDMGA4" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30%  .on_hit true .on_miss true .duration 3
+effect: .name "Tusk DuelDMGA5" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 35% .damage_high_multiply 35%  .on_hit true .on_miss true .duration 3
+
+effect: .name "Tusk DuelDMGB1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 7% .damage_high_multiply 7%  .on_hit true .on_miss true .duration 2
+effect: .name "Tusk DuelDMGB2" .target "target" .curio_result_type "positive" .chance 110%  .combat_stat_buff 1 .damage_low_multiply 9% .damage_high_multiply 9%  .on_hit true .on_miss true .duration 2
+effect: .name "Tusk DuelDMGB3" .target "target" .curio_result_type "positive" .chance 120%  .combat_stat_buff 1 .damage_low_multiply 11% .damage_high_multiply 11%  .on_hit true .on_miss true .duration 2
+effect: .name "Tusk DuelDMGB4" .target "target" .curio_result_type "positive" .chance 130%  .combat_stat_buff 1 .damage_low_multiply 13% .damage_high_multiply 13%  .on_hit true .on_miss true .duration 2
+effect: .name "Tusk DuelDMGB5" .target "target" .curio_result_type "positive" .chance 140%  .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15%  .on_hit true .on_miss true .duration 2
+
+
+//Mastodon
+
+effect: .name "MastoClear" .target "performer_group_other" .chance 100% .unstun 1 .on_hit true .on_miss true
+effect: .name "MastoMoveA" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "tusk_self_move_resist" .on_hit true .on_miss true	.queue true
+effect: .name "MastoMoveB" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "tusk_self_move_resist" .on_hit true .on_miss true	.queue true
+
+//Ram
+
+effect: .name "Ram Push1" .target "target" .chance 100% .buff_ids "tusk_move_resist" .on_hit true .on_miss false
+effect: .name "Ram Push2" .target "target" .chance 110% .buff_ids "tusk_move_resist" .on_hit true .on_miss false
+effect: .name "Ram Push3" .target "target" .chance 120% .buff_ids "tusk_move_resist" .on_hit true .on_miss false
+effect: .name "Ram Push4" .target "target" .chance 130% .buff_ids "tusk_move_resist" .on_hit true .on_miss false
+effect: .name "Ram Push5" .target "target" .chance 140% .buff_ids "tusk_move_resist" .on_hit true .on_miss false
+
+//Spit
+
+effect: .name "SpitDB1" .target "target" .curio_result_type "negative" .chance 90% .combat_stat_buff 1 .attack_rating_add -5% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SpitDB2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .attack_rating_add -8% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SpitDB3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .attack_rating_add -12% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SpitDB4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .attack_rating_add -15% .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SpitDB5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .attack_rating_add -18% .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "Tusk Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0%
+effect: .name "Tusk Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 0%
+effect: .name "Tusk Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 0%
+effect: .name "Tusk Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 0%
+effect: .name "Tusk Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 0%
+
+//Irascible
+
+effect: .name "Tusk Anger1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add -6% .damage_low_multiply 10% .damage_high_multiply 10% .speed_rating_add 1 .on_hit true .on_miss true .queue true .duration 1 .buff_duration_type combat_end
+effect: .name "Tusk Anger2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add -8% .damage_low_multiply 14% .damage_high_multiply 14% .speed_rating_add 2 .on_hit true .on_miss true .queue true .duration 1 .buff_duration_type combat_end
+effect: .name "Tusk Anger3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add -10% .damage_low_multiply 18% .damage_high_multiply 18% .speed_rating_add 3 .on_hit true .on_miss true .queue true .duration 1 .buff_duration_type combat_end
+effect: .name "Tusk Anger4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add -12% .damage_low_multiply 22% .damage_high_multiply 22% .speed_rating_add 3 .on_hit true .on_miss true .queue true .duration 1 .buff_duration_type combat_end
+effect: .name "Tusk Anger5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add -14% .damage_low_multiply 26% .damage_high_multiply 26% .speed_rating_add 4 .on_hit true .on_miss true .queue true .duration 1 .buff_duration_type combat_end
+
+effect: .name "Tusk Heal1" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "Tusk Heal2" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "Tusk Heal3" .target "performer" .curio_result_type "positive" .chance 100% .heal 12	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "Tusk Heal4" .target "performer" .curio_result_type "positive" .chance 100% .heal 14	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "Tusk Heal5" .target "performer" .curio_result_type "positive" .chance 100% .heal 16	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+
+
+

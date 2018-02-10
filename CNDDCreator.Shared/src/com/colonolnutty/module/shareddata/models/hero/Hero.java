@@ -13,7 +13,10 @@ public class Hero {
         Name = name;
     }
 
-    public int getIdIndex() {
-        return Info.IdIndex;
+    public String getId() {
+        if(Info == null) {
+            return null;
+        }
+        return Info.getId();
     }
 }

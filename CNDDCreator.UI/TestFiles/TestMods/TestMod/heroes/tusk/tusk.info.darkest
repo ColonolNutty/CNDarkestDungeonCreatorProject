@@ -1,0 +1,68 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 60% .move 40% .debuff 10% .death_blow 67% .trap 40%
+weapon: .name "tusk_weapon_0" .atk 0% .dmg 6 11 .crit 3% .spd 4
+weapon: .name "tusk_weapon_1" .atk 0% .dmg 6 13 .crit 3.5% .spd 4 .upgradeRequirementCode 0
+weapon: .name "tusk_weapon_2" .atk 0% .dmg 8 14 .crit 4% .spd 5 .upgradeRequirementCode 1
+weapon: .name "tusk_weapon_3" .atk 0% .dmg 8 16 .crit 4.5% .spd 5 .upgradeRequirementCode 2
+weapon: .name "tusk_weapon_4" .atk 0% .dmg 9 17 .crit 5% .spd 6 .upgradeRequirementCode 3
+armour: .name "tusk_armour_0" .def 5% .prot 0 .hp 23 .spd 0
+armour: .name "tusk_armour_1" .def 10% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
+armour: .name "tusk_armour_2" .def 15% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
+armour: .name "tusk_armour_3" .def 20% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "tusk_armour_4" .def 25% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "big_game" .level 0 .type "melee" .atk 85% .dmg 0% .crit 4% .launch 432 .target 12 .is_crit_valid True .ignore_protection true .effect "Tusk Dmg Marked" "Big Tusk" .generation_guaranteed true
+combat_skill: .id "big_game" .level 1 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 432 .target 12 .is_crit_valid True  .ignore_protection true .effect "Tusk Dmg Marked" "Big Tusk" 
+combat_skill: .id "big_game" .level 2 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 432 .target 12 .is_crit_valid True  .ignore_protection true .effect "Tusk Dmg Marked" "Big Tusk" 
+combat_skill: .id "big_game" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 432 .target 12 .is_crit_valid True .ignore_protection true .effect "Tusk Dmg Marked" "Big Tusk" 
+combat_skill: .id "big_game" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 432 .target 12 .is_crit_valid True  .ignore_protection true .effect "Tusk Dmg Marked" "Big Tusk" 
+
+combat_skill: .id "bite_me" .level 0 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Mark Target" "Tusk DuelDMGA1" "Tusk DuelDMGB1"  
+combat_skill: .id "bite_me" .level 1 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Mark Target" "Tusk DuelDMGA2" "Tusk DuelDMGB2" 
+combat_skill: .id "bite_me" .level 2 .type "ranged" .atk 125% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Mark Target" "Tusk DuelDMGA3" "Tusk DuelDMGB3" 
+combat_skill: .id "bite_me" .level 3 .type "ranged" .atk 135% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Mark Target" "Tusk DuelDMGA4" "Tusk DuelDMGB4" 
+combat_skill: .id "bite_me" .level 4 .type "ranged" .atk 145% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Mark Target" "Tusk DuelDMGA5" "Tusk DuelDMGB5"  
+
+combat_skill: .id "mastodon" .level 0 .type "melee" .atk 90% .dmg -67% .crit 0% .launch 32 .target 12 .is_crit_valid True  .effect "Strong Stun 1" "MastoClear" "MastoMoveA" "MastoMoveB"
+combat_skill: .id "mastodon" .level 1 .type "melee" .atk 95% .dmg -67% .crit 0% .launch 32 .target 12 .is_crit_valid True  .effect "Strong Stun 2" "MastoClear" "MastoMoveA" "MastoMoveB"
+combat_skill: .id "mastodon" .level 2 .type "melee" .atk 100% .dmg -67% .crit 0% .launch 32 .target 12 .is_crit_valid True  .effect "Strong Stun 3" "MastoClear" "MastoMoveA" "MastoMoveB"
+combat_skill: .id "mastodon" .level 3 .type "melee" .atk 105% .dmg -67% .crit 0% .launch 32 .target 12 .is_crit_valid True  .effect "Strong Stun 4" "MastoClear" "MastoMoveA" "MastoMoveB"
+combat_skill: .id "mastodon" .level 4 .type "melee" .atk 110% .dmg -67% .crit 0% .launch 32 .target 12 .is_crit_valid True  .effect "Strong Stun 5" "MastoClear" "MastoMoveA" "MastoMoveB"
+
+combat_skill: .id "ram" .level 0 .type "melee" .atk 90% .dmg 0% .crit 0% .launch 32 .target 12 .is_crit_valid True .ignore_protection true .effect "Push 3A" "Ram Push1" "Big Tusk"
+combat_skill: .id "ram" .level 1 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 32 .target 12 .is_crit_valid True .ignore_protection true .effect "Push 3B" "Ram Push2" "Big Tusk"
+combat_skill: .id "ram" .level 2 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 32 .target 12 .is_crit_valid True .ignore_protection true .effect "Push 3C" "Ram Push3" "Big Tusk"
+combat_skill: .id "ram" .level 3 .type "melee" .atk 105% .dmg 0% .crit 0% .launch 32 .target 12 .is_crit_valid True .ignore_protection true .effect "Push 3D" "Ram Push4" "Big Tusk"
+combat_skill: .id "ram" .level 4 .type "melee" .atk 110% .dmg 0% .crit 0% .launch 32 .target 12 .is_crit_valid True .ignore_protection true .effect "Push 3E" "Ram Push5" "Big Tusk"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 0 .launch 4321
+
+combat_skill: .id "spit" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 4321 .target 1234 .is_crit_valid False  .effect "SpitDB1" "Tusk Riposte 1"
+combat_skill: .id "spit" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 4321 .target 1234 .is_crit_valid False  .effect "SpitDB2" "Tusk Riposte 2"
+combat_skill: .id "spit" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 0% .launch 4321 .target 1234 .is_crit_valid False  .effect "SpitDB3" "Tusk Riposte 3"
+combat_skill: .id "spit" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 0% .launch 4321 .target 1234 .is_crit_valid False  .effect "SpitDB4" "Tusk Riposte 4"
+combat_skill: .id "spit" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 0% .launch 4321 .target 1234 .is_crit_valid False  .effect "SpitDB5" "Tusk Riposte 5"
+
+combat_skill: .id "irascible" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 4321 .target  .is_crit_valid True  .effect "Tusk Anger1" "Tusk Heal1"
+combat_skill: .id "irascible" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 4321 .target  .is_crit_valid True  .effect "Tusk Anger2" "Tusk Heal2"
+combat_skill: .id "irascible" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 4321 .target  .is_crit_valid True  .effect "Tusk Anger3" "Tusk Heal3"
+combat_skill: .id "irascible" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 4321 .target  .is_crit_valid True  .effect "Tusk Anger4" "Tusk Heal4"
+combat_skill: .id "irascible" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 4321 .target  .is_crit_valid True  .effect "Tusk Anger5" "Tusk Heal5"
+
+combat_skill: .id "trample" .level 0 .type "melee" .atk 85% .dmg -20% .crit 4% .move 0 1 .launch 43 .target ~12 .is_crit_valid True  .effect "Beast Killer 1"
+combat_skill: .id "trample" .level 1 .type "melee" .atk 90% .dmg -20% .crit 4.5% .move 0 1 .launch 43 .target ~12 .is_crit_valid True  .effect "Beast Killer 1"
+combat_skill: .id "trample" .level 2 .type "melee" .atk 95% .dmg -20% .crit 5% .move 0 1 .launch 43 .target ~12 .is_crit_valid True  .effect "Beast Killer 1"
+combat_skill: .id "trample" .level 3 .type "melee" .atk 100% .dmg -20% .crit 5.5% .move 0 1 .launch 43 .target ~12 .is_crit_valid True  .effect "Beast Killer 1"
+combat_skill: .id "trample" .level 4 .type "melee" .atk 105% .dmg -20% .crit 6% .move 0 1 .launch 43 .target ~12 .is_crit_valid True  .effect "Beast Killer 1"
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True .effect "Big Tusk" 
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "training_ring"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+
+id_index: .index 36
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

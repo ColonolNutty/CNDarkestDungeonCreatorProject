@@ -1,0 +1,132 @@
+
+tusk.sprite.walk.png
+size: 446,1046
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL copy
+  rotate: false
+  xy: 307, 412
+  size: 133, 245
+  orig: 133, 245
+  offset: 0, 0
+  index: -1
+armR copy
+  rotate: false
+  xy: 124, 41
+  size: 126, 229
+  orig: 126, 229
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: false
+  xy: 2, 2
+  size: 120, 211
+  orig: 120, 211
+  offset: 0, 0
+  index: -1
+boobs copy
+  rotate: true
+  xy: 367, 672
+  size: 97, 66
+  orig: 97, 66
+  offset: 0, 0
+  index: -1
+cloth copy
+  rotate: false
+  xy: 374, 125
+  size: 52, 128
+  orig: 52, 128
+  offset: 0, 0
+  index: -1
+fang
+  rotate: true
+  xy: 367, 771
+  size: 135, 70
+  orig: 135, 70
+  offset: 0, 0
+  index: -1
+finger copy
+  rotate: false
+  xy: 266, 323
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+head copy
+  rotate: false
+  xy: 307, 255
+  size: 137, 155
+  orig: 137, 155
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 179, 356
+  size: 126, 301
+  orig: 126, 301
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 75, 272
+  size: 102, 302
+  orig: 102, 302
+  offset: 0, 0
+  index: -1
+natte copy 2
+  rotate: false
+  xy: 179, 659
+  size: 186, 385
+  orig: 186, 385
+  offset: 0, 0
+  index: -1
+noeud copy
+  rotate: false
+  xy: 75, 230
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+pauldronB copy
+  rotate: true
+  xy: 367, 908
+  size: 136, 75
+  orig: 136, 75
+  offset: 0, 0
+  index: -1
+pauldronL copy
+  rotate: true
+  xy: 179, 272
+  size: 82, 85
+  orig: 82, 85
+  offset: 0, 0
+  index: -1
+pauldronR copy
+  rotate: false
+  xy: 252, 35
+  size: 118, 104
+  orig: 118, 104
+  offset: 0, 0
+  index: -1
+plackart copy
+  rotate: false
+  xy: 252, 141
+  size: 120, 112
+  orig: 120, 112
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 215
+  size: 359, 71
+  orig: 359, 71
+  offset: 0, 0
+  index: -1
+tusk copy
+  rotate: true
+  xy: 2, 576
+  size: 468, 175
+  orig: 468, 175
+  offset: 0, 0
+  index: -1

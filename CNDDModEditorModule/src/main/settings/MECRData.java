@@ -21,7 +21,7 @@ public class MECRData extends CRData<MESettings> {
 
     @Override
     public String getSettingsFilePath() {
-        return "configuration\\modconversionconfig.json";
+        return "configuration\\modeditorconfig.json";
     }
 
     @Override

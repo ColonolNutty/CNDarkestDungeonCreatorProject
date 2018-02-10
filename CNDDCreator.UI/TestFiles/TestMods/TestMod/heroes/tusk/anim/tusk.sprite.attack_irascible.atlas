@@ -1,0 +1,20 @@
+
+tusk.sprite.attack_irascible.png
+size: 665,436
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+irascible copy
+  rotate: true
+  xy: 2, 2
+  size: 432, 588
+  orig: 432, 588
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 592, 75
+  size: 359, 71
+  orig: 359, 71
+  offset: 0, 0
+  index: -1

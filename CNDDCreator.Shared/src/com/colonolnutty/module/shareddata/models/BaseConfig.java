@@ -4,196 +4,147 @@ import com.colonolnutty.module.shareddata.utils.CNStringUtils;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * User: Jack's Computer
  * Date: 01/07/2018
  * Time: 1:03 PM
  */
-public abstract class BaseConfig {
-    public static <T> ArrayList<T> getOrNull(Hashtable<String, ArrayList<Object>> properties, String name) {
-        if(CNStringUtils.isNullOrWhitespace(name)
-                || properties == null
-                || properties.isEmpty()
-                || !properties.containsKey(name)) {
-            return null;
-        }
+public class BaseConfig {
+    private String _name;
+    private ArrayList<PropertyName> _propertyNames;
+    private ArrayList<ConfigProperty> _properties;
 
-        ArrayList<Object> arr = properties.get(name);
-
-        if(arr.isEmpty() || arr.size() > 1) {
-            return null;
-        }
-
-        ArrayList<T> arrOut = new ArrayList<T>();
-        for(Object obj : arr) {
-            arrOut.add((T) obj);
-        }
-        return arrOut;
+    protected BaseConfig(String name, ArrayList<ConfigProperty> properties) {
+        _name = name;
+        _properties = properties;
     }
 
-    public static <T> T getSingleOrNull(Hashtable<String, ArrayList<Object>> properties, String name) {
-        if(CNStringUtils.isNullOrWhitespace(name)
-                || properties == null
-                || properties.isEmpty()
-                || !properties.containsKey(name)) {
-            return null;
-        }
-
-        ArrayList<Object> arr = properties.get(name);
-
-        if(arr.isEmpty() || arr.size() > 1) {
-            return null;
-        }
-
-        return (T)arr.get(0);
+    public void setProperties(ArrayList<ConfigProperty> properties) {
+        _properties = properties;
     }
 
-    public static Hashtable<String, ArrayList<Object>> parseProperties(String name, String str) {
-        String replacedStr = str.replace(name + ": ", "");
-        String[] split = replacedStr.split(" ");
-
-        Hashtable<String, ArrayList<Object>> properties = new Hashtable<String, ArrayList<Object>>();
-        String currentProperty = null;
-        ArrayList<Object> currentValues = null;
-        for(int i = 0; i < split.length; i++) {
-            String property = split[i];
-            if(currentProperty == null || (CNStringUtils.isNullOrWhitespace(property) && !currentProperty.equals("target"))) {
-                continue;
+    public ConfigProperty getProperty(PropertyName propertyName) {
+        if(_properties == null) {
+            return null;
+        }
+        ConfigProperty property = null;
+        for(ConfigProperty prop : _properties) {
+            if(prop.Name.equals(propertyName)) {
+                property = prop;
+                break;
             }
-            if(!property.startsWith(".")) {
-                if(currentValues != null) {
-                    property = property.replace("%", "");
-                    currentValues.add(parseObject(property));
+        }
+        return property;
+    }
+
+    public String getConfigName() {
+        return _name;
+    }
+
+    public ArrayList<PropertyName> getPropertyNames() {
+        if(_propertyNames != null) {
+            return _propertyNames;
+        }
+        if(_properties == null) {
+            _propertyNames = new ArrayList<PropertyName>();
+            return _propertyNames;
+        }
+        _propertyNames = new ArrayList<PropertyName>();
+
+        for(ConfigProperty prop : _properties) {
+            if(!_propertyNames.contains(prop.Name)) {
+                _propertyNames.add(prop.Name);
+            }
+        }
+        return _propertyNames;
+    }
+
+    public static BaseConfig parse(String str) {
+        String[] split = str.split(":");
+        String configName = split[0];
+        String strValue = split[1];
+
+        String mainPatternStr = "\\.(\\w+)((?:(?:\\s\"\\w+(?:\\s+\\w+)?\")+)|(?:(?:\\s\\d+?(?:\\.?\\d+)?%?)+)|\\s\\w+|\\s+)";
+
+        Pattern pattern = Pattern.compile(mainPatternStr);
+
+        String valuesPatternStr = "(?:(\"\\w+(?:\\s+\\w+)?\"))|(?:(\\d+?(?:\\.?\\d+)?%?))|(?:(\\w+))";
+        Pattern valuesPattern = Pattern.compile(valuesPatternStr);
+
+        ArrayList<ConfigProperty> properties = new ArrayList<ConfigProperty>();
+
+        Matcher m = pattern.matcher(strValue);
+        while(m.find()) {
+            for(int i = 1; i < m.groupCount(); i++) {
+                PropertyName name = null;
+                try {
+                    name = Enum.valueOf(PropertyName.class, m.group(1));
                 }
-                continue;
+                catch(Exception e) { continue; }
+                String valuesStr = m.group(2).trim();
+                Matcher valueMatches = valuesPattern.matcher(valuesStr);
+
+                ArrayList<String> values = new ArrayList<String>();
+                if(CNStringUtils.isNullOrWhitespace(valuesStr)) {
+                    values.add(" ");
+                    properties.add(new ConfigProperty(name, values));
+                    continue;
+                }
+                while(valueMatches.find()) {
+                    String strMatch = valueMatches.group(1);
+                    String numberMatch = valueMatches.group(2);
+                    String wordMatch = valueMatches.group(3);
+                    if(strMatch != null) {
+                        values.add(strMatch.trim().replace("\"", ""));
+                    }
+                    else if(numberMatch != null) {
+                        values.add(numberMatch.trim().replace("%", ""));
+                    }
+                    else if(wordMatch != null) {
+                        values.add(wordMatch.trim());
+                    }
+                }
+                properties.add(new ConfigProperty(name, values));
             }
-            if(currentProperty != null
-                    && currentValues != null
-                    && !properties.containsKey(currentProperty)) {
-                properties.put(currentProperty, currentValues);
-            }
-            currentProperty = property.replaceFirst("\\.", "");
-            currentValues = new ArrayList<Object>();
         }
-        return properties;
+        return new BaseConfig(configName, properties);
     }
 
-    public String formatStrings(String name, boolean escapeStringValue, String... values) {
-        if(CNStringUtils.isNullOrWhitespace(name) || values == null || values.length == 0) {
-            return "";
+    public static BaseConfig parseEmpty() {
+        return new BaseConfig("Empty", null);
+    }
+
+    protected ArrayList<String> copy(String... arr) {
+        ArrayList<String> otherArr = new ArrayList<String>();
+
+        for(String val : arr) {
+            otherArr.add(val);
         }
+        return otherArr;
+    }
+
+    protected  <T> ArrayList<T> copy(ArrayList<BaseConfig> arr) {
+        ArrayList<T> otherArr = new ArrayList<T>();
+
+        for(BaseConfig val : arr) {
+            otherArr.add((T) val.copy());
+        }
+        return otherArr;
+    }
+
+    @Override
+    public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(formatName(name));
-        boolean hasValue = false;
-        for(String value : values) {
-            if(CNStringUtils.isNullOrWhitespace(value)) {
-                continue;
-            }
-            hasValue = true;
+        builder.append(getConfigName());
+        builder.append(":");
+
+        for(ConfigProperty property : _properties) {
             builder.append(" ");
-            builder.append(formatValue(value, escapeStringValue));
-        }
-        if(!hasValue) {
-            return "";
+            builder.append(property.toString());
         }
         return builder.toString();
-    }
-
-    public String formatDoubles(String name, boolean trimPercent, boolean includePercent, Double... values) {
-        if(values == null || values.length == 0) {
-            return "";
-        }
-        StringBuilder builder = new StringBuilder();
-        builder.append(formatName(name));
-        boolean hasValue = false;
-        for(Double value : values) {
-            if(value == null) {
-                continue;
-            }
-            builder.append(" ");
-            String valStr;
-            if(trimPercent) {
-                valStr = trimDouble(value);
-            }
-            else {
-                valStr = value.toString();
-            }
-            hasValue = true;
-            builder.append(formatValue(valStr, false));
-            if(includePercent) {
-                builder.append("%");
-            }
-        }
-        if(!hasValue) {
-            return "";
-        }
-        return builder.toString();
-    }
-
-    public String formatObjects(String name, Object... values) {
-        if(name == null || values == null && values.length > 0) {
-            return "";
-        }
-        StringBuilder builder = new StringBuilder();
-        builder.append(formatName(name));
-        boolean hasValue = false;
-        for(Object value : values) {
-            if(value == null || value instanceof Double || value instanceof String) {
-                continue;
-            }
-            String valStr = value.toString();
-            if(CNStringUtils.isNullOrWhitespace(valStr)) {
-                continue;
-            }
-            hasValue = true;
-            builder.append(" ");
-            builder.append(formatValue(valStr, false));
-        }
-        if(!hasValue) {
-            return "";
-        }
-        return builder.toString();
-    }
-
-    private String formatValue(String value, boolean escapeValue) {
-        if(CNStringUtils.isNullOrWhitespace(value)) {
-            return "";
-        }
-        String valStr = value.toString();
-        if(escapeValue && value instanceof String) {
-            return "\"" + CNStringUtils.escapeString(valStr) + "\"";
-        }
-        return valStr;
-    }
-
-    private String trimDouble(Double value) {
-        if(value == null) {
-            return "";
-        }
-        return value.intValue() + "";
-    }
-
-    private String formatName(String name) {
-        if(CNStringUtils.isNullOrWhitespace(name)) {
-            return "";
-        }
-        return " ." + name;
-    }
-
-    private static Object parseObject(String str) {
-        try {
-            return Boolean.parseBoolean(str);
-        }
-        catch(Exception e) {}
-        try {
-            return Integer.parseInt(str);
-        }
-        catch(Exception e) {}
-        try {
-            return Double.parseDouble(str);
-        }
-        catch(Exception e) {}
-        return str;
     }
 }

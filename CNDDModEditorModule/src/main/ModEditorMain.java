@@ -2,7 +2,6 @@ package main;
 
 import com.colonolnutty.module.shareddata.MainFunctionModule;
 import com.colonolnutty.module.shareddata.debug.CNLog;
-import com.colonolnutty.module.shareddata.ui.ProgressController;
 import com.colonolnutty.module.shareddata.utils.StopWatchTimer;
 import main.settings.MESettings;
 
@@ -13,15 +12,12 @@ import main.settings.MESettings;
  */
 public class ModEditorMain extends MainFunctionModule {
     private CNLog _log;
-    private ProgressController _progressController;
     private MESettings _settings;
 
     public ModEditorMain(MESettings settings,
-                             CNLog log,
-                             ProgressController progressController) {
+                             CNLog log) {
         _settings = settings;
         _log = log;
-        _progressController = progressController;
     }
 
     @Override
